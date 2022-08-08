@@ -5,7 +5,7 @@ function getRandom(){
 
     var num = Math.floor(Math.random() * cantadas.length + 1);
 
-    return num;
+    return num -1;
 }
 
 var teste = getRandom();
