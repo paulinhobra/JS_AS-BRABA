@@ -1,11 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Roboto:ital,wght@1,100&display=swap');
 body{
     background-color: brown;
     color: aliceblue;
 }
 
+p, form{
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.legenda-form{
+    color: #ccc;
+    font-size: 12px;
+}
+
 .titulo-principal{    
     margin-top: 30px;
     text-shadow: 2px 2px 8px  #000;
+    font-family: "Kanit";
+}
+
+h3{
+    text-shadow: 2px 2px 8px  #000;
+    font-family: "Kanit";
 }
 
 .centralizar-texto{
